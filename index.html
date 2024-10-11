@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="wether">
+        <form class="wether_header">
+            <button>
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            </button>
+            <input type="text" placeholder="Enter Your Location" class="search">
+        </form>
+        <div class="wether_body">
+           <div class="curr_location">
+               <p class="my_location">khorda</p>
+               <p class="time">current time</p>
+               <div class="today">
+                cloud
+               </div>
+               <i class="fa-solid fa-cloud fa-2xl myclass" style="color: #ffffff;"></i>
+               <p class="main_degree">207deg</p>
+               <div class="degree">
+                <div class="min_degree">770deg</div>
+                <div class="max_degree">500deg</div>
+               </div>
+           
+           </div>
+           <div class="items">
+                <div class="section1">
+                    <div class="item1  my_items">
+                        <i class="fa-solid fa-droplet fa-lg" style="color: #ffffff;"></i>
+                            <div class="information">
+                           
+                                <p>Feels Like</p>
+                                <p id="feels_deg">200deg</p>
+                                </div>
+                    </div>
+                    <div class="item2  my_items">
+                        <span class="material-symbols-outlined">
+                            device_thermostat
+                            </span>
+                        <div class="information">
+                       
+                            <p>Pressure</p>
+                            <p id="pre_deg">200deg</p>
+                            </div>
+                    </div>
+                   
+                    
+                </div>
+                <div class="section2 ">
+                    <div class="item3  my_items">
+                        <i class="fa-solid fa-droplet fa-lg" style="color: #ffffff;"></i>
+                        <div class="information">
+                           
+                        <p>Humidity</p>
+                        <p id="h_deg">200deg</p>
+                        </div>
+                    </div>
+                    <div class="item4  my_items">
+                        <i class="fa-solid fa-wind fa-lg" style="color: #000000;"></i>
+                            <div class="information">
+                           
+                                <p>Wind</p>
+                                <p id="wind_deg">200deg</p>
+                                </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

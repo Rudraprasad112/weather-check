@@ -1,0 +1,147 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color: bla;
+    display: flex;
+    
+    justify-content: center;
+   background-Image:linear-gradient(to right ,#717fb7,#1991ca);
+}
+.wether{
+   margin-top: 6.80rem;
+    height: 450px;
+    width: 400px;
+    background-color: rgba(215, 207, 207, 0.374);
+    border-radius: 0.5rem;
+    display: flex;
+    box-shadow: 1re left black ;
+   
+    
+}
+.wether_header{
+    height:20px ;
+    width: 200px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    background-color:black;
+    
+    align-items: center;
+    border-radius: 0.25rem;
+}
+.wether_header input{
+    background-color: black;
+    border: 0px;
+    width: 100%;
+    color: white;
+
+}
+.wether_header button{
+    width:30px;
+    height: 100%;
+    background-color: black;
+    border: 0px;
+    border-top-left-radius: 0.25rem;
+   border-bottom-left-radius: 0.25rem;
+}
+.wether_body{
+    margin-top: 5rem;
+    position: absolute;
+   height: 400px;
+   width: 400px;
+
+
+}
+.today{
+    height: 40px;
+    width: 90px;
+    background-color: black;
+    border-radius: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.location{
+    font-weight: 800;
+}
+
+.time{
+    margin-top: -10px;
+    font-size: 15px;
+    font-weight: 200;
+}
+.curr_location{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    line-height: 35px;
+}
+.degree{
+    display: flex;
+    height: 50px;
+    width: 130px;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.myclass{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.items{
+    
+    margin-top: 0.5rem;
+    width: 400px;
+    height:120px;
+   
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section1{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+.section2{
+    height: 100%;
+    width: 100%;
+  
+}
+.my_items{
+    height:50px;
+    width:190px;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.205);
+    display: flex;
+    margin-top:0.5rem ;
+    margin-left: 5px;
+    box-shadow: 1rem black;
+    align-items: center;
+    
+    
+}
+.my_items i{
+    margin-left: 0.5rem;
+}
+.information{
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
