@@ -22,7 +22,7 @@ const add_location=(city)=>{
      return new Intl.DisplayNames([city],{type:"region"}).of(city);
 }
 //find the curr date and time
-
+https://github.com/Rudraprasad112/weather-check.git
 const add_curr_time= (insec)=>{
     let mili_sec=insec*1000;
     const option={
